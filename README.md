@@ -15,8 +15,8 @@
 ```
 	echo -n "misty lake" > query.txt
 ```
+
 5. `npm install`
 6. Run `./download.sh`
 
 For list of middle size pictures (`regular`) run `node urls.js > urls.txt`
-
