@@ -12,7 +12,7 @@
 
 4. Write your search query to file `query.txt`
 
-```
+```bash
 	echo -n "misty lake" > query.txt
 ```
 
