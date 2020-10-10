@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Unsplash downloader1](README.md)
+* [Unsplash downloader](README.md)
 
