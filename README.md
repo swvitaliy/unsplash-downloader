@@ -1,4 +1,4 @@
-# Unsplash downloader1
+# Unsplash downloader
 
 ## Installation & running
 
@@ -19,12 +19,6 @@
 1. `npm install`
 2. Run `./download.sh`
 
-| Название | Required | Тип | Описание |
-| :--- | :--- | :--- | :--- |
-| id | обязательно | string | идентификатор |
-|  |  |  |  |
-
 For list of middle size pictures \(`regular`\) run `node urls.js > urls.txt`
 
-\`\`
 
