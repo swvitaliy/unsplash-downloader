@@ -6,6 +6,9 @@
 2. Create an app
 3. Write the app api key to `api_key.txt`
 
+!!! warning ""  
+Text
+
 ```bash
     echo -n {your_api_key} > api_key.txt
 ```
