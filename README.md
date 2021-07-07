@@ -21,5 +21,7 @@
 
 For list of middle size pictures \(`regular`\) run `node urls.js > urls.txt`
 
+For list of userpics in json and txt run ./userpics.sh. It will write to files userpics.txt and userpics.json.
+
 ![](.gitbook/assets/smile-xhqcac0q-200638-320-314.jpg)
 

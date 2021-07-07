@@ -1,6 +1,8 @@
 const fs = require('fs');
-const API_KEY = fs.readFileSync('api_key.txt').toString();
+const ak = fs.readFileSync('api_key.txt').toString();
 const query = fs.readFileSync('query.txt').toString();
+
+const API_KEY = ak.replace(/^s+|\s+$/g, '');
 
 console.error('search query:', query);
 
@@ -15,7 +17,7 @@ function toJson(res) {
 	return typeof res.json === "function" ? res.json() : res;
 }
 
-unsplash.search.photos(query, 1, 30, { orientation: "landscape" })
+unsplash.search.photos(query, 1, 30, { })
 	.then(toJson)
 	.then(json => {
 		console.info(JSON.stringify(json, null, 4))
